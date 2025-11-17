@@ -15,13 +15,7 @@ const formatTime = (date, onlyDate = false) => {
 
 app.get('/', async (req, res) => {
     // todo error handling
-    let daysAhead = Math.min(Math.max(req.query.daysAhead ? parseInt(req.query.daysAhead) : 0, 0), 30);
-
-    let config = {
-        headers: {
-            'User-Agent': 'NPO2XML (https://github.com/NoahvdAa/NPO2XML)'
-        }
-    }
+    let daysAhead = Math.min(Math.max(req.query.daysAhead ? parseInt(req.query.daysAhead) : 0, 0), 7);
 
     let writer = new XMLWriter();
     writer.startDocument();
@@ -50,10 +44,15 @@ app.get('/', async (req, res) => {
             let date = new Date();
             date.setDate(date.getDate() + i);
             let dateString = `${String(date.getDate()).padStart(2, '0')}-${String(date.getMonth() + 1).padStart(2, '0')}-${date.getFullYear()}`;
-            let programsResp = await fetch(`https://npo.nl/start/api/domain/guide-channel?date=${dateString}&guid=${channel.guid}`);
+            let programsResp = await fetch(`https://npo.nl/start/api/domain/guide-channel?date=${dateString}&guid=${channel.guid}`, {
+                headers: {
+                    'User-Agent': 'NPO2XML (https://github.com/NoahvdAa/NPO2XML)'
+                }
+            });
             let programs = await programsResp.json();
             for (let program of programs) {
                 if (seen.includes(program.guid)) continue;
+                if (program.isFiller) continue; // todo do these programs actually do anything?
 
                 let startDate = new Date(program.programStart * 1000);
 
