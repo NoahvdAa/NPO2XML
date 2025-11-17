@@ -1,0 +1,38 @@
+[
+  {
+    "guid": "83dc1f25-a065-496c-9418-bd5c60dfb36d",
+    "title": "NPO1",
+    "externalId": "LI_NL1_4188102",
+    "logo": "https://assets.welkom.npo.nl/logos/npo1.png"
+  },
+  {
+    "guid": "316951f5-ce06-41d2-ae24-44eb25368a61",
+    "title": "NPO2",
+    "externalId": "LI_NL2_4188105",
+    "logo": "https://assets.welkom.npo.nl/logos/npo2.png"
+  },
+  {
+    "guid": "2042e1ee-0e79-4766-aea2-5b300d6839b2",
+    "title": "NPO3",
+    "externalId": "LI_NL3_4188107",
+    "logo": "https://assets.welkom.npo.nl/logos/npo3.png"
+  },
+  {
+    "guid": "b5bcfbc5-27a5-4d1b-b058-003eff68a9d1",
+    "title": "NPO1 Extra",
+    "externalId": "LI_NEDERLAND3_221683",
+    "logo": "https://assets.welkom.npo.nl/logos/_240xAUTO_crop_center-center_none/NPO_1_Extra_logo_2018.svg.png"
+  },
+  {
+    "guid": "69571196-9be1-4a72-9225-997735239dc2",
+    "title": "NPO2 Extra",
+    "externalId": "LI_NEDERLAND2_221679",
+    "icon": "https://assets.welkom.npo.nl/logos/_240xAUTO_crop_center-center_none/NPO_2_Extra_logo_2018.svg.png"
+  },
+  {
+    "guid": "92bd1fa2-5c49-47e5-8e4c-773121ffdb9a",
+    "title": "NPO Politiek en Nieuws",
+    "externalId": "LI_NEDERLAND1_221675",
+    "icon": "https://assets.welkom.npo.nl/logos/_240xAUTO_crop_center-center_none/NPO_Politiek_en_Nieuws_logo.svg.png"
+  }
+]
