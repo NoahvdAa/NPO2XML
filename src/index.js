@@ -15,7 +15,7 @@ const formatTime = (date, onlyDate = false) => {
 
 app.get('/', async (req, res) => {
     // todo error handling
-    let daysAhead = Math.min(req.query.daysAhead ? parseInt(req.query.daysAhead) : 0, 0);
+    let daysAhead = Math.min(Math.max(req.query.daysAhead ? parseInt(req.query.daysAhead) : 0, 0), 30);
 
     let config = {
         headers: {
