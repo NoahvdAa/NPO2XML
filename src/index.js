@@ -53,6 +53,7 @@ app.get('/', async (req, res) => {
             for (let program of programs) {
                 if (seen.includes(program.guid)) continue;
                 if (program.isFiller) continue; // todo do these programs actually do anything?
+                if (program.mainTitle) continue; // NPO site describes these as 'Geen titel bekend'
 
                 let startDate = new Date(program.programStart * 1000);
 
