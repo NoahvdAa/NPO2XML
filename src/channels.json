@@ -3,25 +3,25 @@
     "guid": "83dc1f25-a065-496c-9418-bd5c60dfb36d",
     "title": "NPO1",
     "externalId": "LI_NL1_4188102",
-    "logo": "https://assets.welkom.npo.nl/logos/npo1.png"
+    "icon": "https://assets.welkom.npo.nl/logos/npo1.png"
   },
   {
     "guid": "316951f5-ce06-41d2-ae24-44eb25368a61",
     "title": "NPO2",
     "externalId": "LI_NL2_4188105",
-    "logo": "https://assets.welkom.npo.nl/logos/npo2.png"
+    "icon": "https://assets.welkom.npo.nl/logos/npo2.png"
   },
   {
     "guid": "2042e1ee-0e79-4766-aea2-5b300d6839b2",
     "title": "NPO3",
     "externalId": "LI_NL3_4188107",
-    "logo": "https://assets.welkom.npo.nl/logos/npo3.png"
+    "icon": "https://assets.welkom.npo.nl/logos/npo3.png"
   },
   {
     "guid": "b5bcfbc5-27a5-4d1b-b058-003eff68a9d1",
     "title": "NPO1 Extra",
     "externalId": "LI_NEDERLAND3_221683",
-    "logo": "https://assets.welkom.npo.nl/logos/_240xAUTO_crop_center-center_none/NPO_1_Extra_logo_2018.svg.png"
+    "icon": "https://assets.welkom.npo.nl/logos/_240xAUTO_crop_center-center_none/NPO_1_Extra_logo_2018.svg.png"
   },
   {
     "guid": "69571196-9be1-4a72-9225-997735239dc2",
@@ -34,5 +34,83 @@
     "title": "NPO Politiek en Nieuws",
     "externalId": "LI_NEDERLAND1_221675",
     "icon": "https://assets.welkom.npo.nl/logos/_240xAUTO_crop_center-center_none/NPO_Politiek_en_Nieuws_logo.svg.png"
+  },
+  {
+    "guid": "e9677aed-771c-4fa1-8128-b1164e86e654",
+    "title": "RTV Noord",
+    "externalId": "LI_REGIO_RTVNOORD",
+    "icon": "https://assets.welkom.npo.nl/general/RTV-Noord.jpg"
+  },
+  {
+    "guid": "9fb17e7e-542d-4ce1-9396-c38b5053510e",
+    "title": "Omrop Fryslân",
+    "externalId": "LI_REGIO_OMROPFRYSLAN",
+    "icon": "https://assets.welkom.npo.nl/general/Omroep-Fryslan.jpg"
+  },
+  {
+    "guid": "a190343e-c192-4395-bbf6-41a3541447d7",
+    "title": "RTV Drenthe",
+    "externalId": "LI_REGIO_TVDRENTHE",
+    "icon": "https://assets.welkom.npo.nl/general/RTV-Drenthe.png"
+  },
+  {
+    "guid": "7d0f94a2-e1b4-40fd-a6ae-8a316a6251c3",
+    "title": "NH Nieuws",
+    "externalId": "LI_REGIO_NHTV",
+    "icon": "https://assets.welkom.npo.nl/general/NH_Nieuws_logo_2022.svg.png"
+  },
+  {
+    "guid": "6f52d197-f291-4379-bb32-bc573c38b6c1",
+    "title": "Omroep Flevoland",
+    "externalId": "LI_REGIO_OMROEPFLEVOLAND",
+    "icon": "https://assets.welkom.npo.nl/general/Omroep-Flevoland.png"
+  },
+  {
+    "guid": "c44e59b5-62cf-49cc-a2a9-e86859d273ea",
+    "title": "RTV Oost",
+    "externalId": "LI_REGIO_TVOOST",
+    "icon": "https://assets.welkom.npo.nl/general/RTV-Oost.png"
+  },
+  {
+    "guid": "0a08d65a-7eae-4437-b40d-427185295b23",
+    "title": "RTV Utrecht",
+    "externalId": "LI_REGIO_RTVUTRECHT",
+    "icon": "https://assets.welkom.npo.nl/general/RTV-Utrecht.png"
+  },
+  {
+    "guid": "f46a2279-f191-4d9d-bf01-39e047c0ddde",
+    "title": "Omroep Gelderland",
+    "externalId": "LI_REGIO_TVGELDERLAND",
+    "icon": "https://assets.welkom.npo.nl/general/omroep-Gelderland.png"
+  },
+  {
+    "guid": "22ffb7f4-c7bc-4e57-8ea9-1c3b58e040f9",
+    "title": "Omroep West",
+    "externalId": "LI_REGIO_TVWEST",
+    "icon": "https://assets.welkom.npo.nl/general/Omroep-West.png"
+  },
+  {
+    "guid": "af1b663d-940a-4886-9b48-6ebd96a31766",
+    "title": "Omroep Zeeland",
+    "externalId": "LI_REGIO_OMROEPZEELAND",
+    "icon": "https://assets.welkom.npo.nl/general/Omroep-Zeeland.png"
+  },
+  {
+    "guid": "9a154026-d630-4ae9-b3f1-f0b3596ceac2",
+    "title": "TV Rijnmond",
+    "externalId": "LI_REGIO_TVRIJNMOND",
+    "icon": "https://assets.welkom.npo.nl/general/RTV-Rijnmond.jpg"
+  },
+  {
+    "guid": "bcfc0f3e-6a67-4e99-a49c-8f39b6f87921",
+    "title": "Omroep Brabant",
+    "externalId": "LI_REGIO_OMROEPBRABANT",
+    "icon": "https://assets.welkom.npo.nl/general/Omroep-Brabant.jpg"
+  },
+  {
+    "guid": "bef6bd9f-2e40-4066-a7a8-df0c60834abd",
+    "title": "L1 TV",
+    "externalId": "LI_REGIO_L1TV",
+    "icon": "https://assets.welkom.npo.nl/general/1Limburg.png"
   }
 ]
