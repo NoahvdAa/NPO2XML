@@ -82,7 +82,11 @@ app.get('/', async (req, res) => {
                     writer.text(cat);
                     writer.endElement();
                 };
-                if (program.isLive) pushCategory('Live');
+                if (program.isLive) {
+                    writer.startElement('live');
+                    writer.endElement();
+                    pushCategory('Live');
+                }
                 if (program.isRepeat) pushCategory('Herhaling');
                 for (let genre of program.genres) {
                     pushCategory(genre.name);
